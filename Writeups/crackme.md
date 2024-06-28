@@ -21,9 +21,9 @@ Afetr decodeing from Base64, it retunred another Base64 string.
 Finally it prompted out the flag
 
 ```
-From Base85 --->
-From Base64 --->
-From Base64 --->
+From Base85 ---> WW1GMGRHeGxXSHMzWkRjNU16QXpOMkV3TnpZd01UZzJOVGMwWWpBeU9ESm1NbVkwTXpWbE4zMD0=
+From Base64 ---> YmF0dGxlWHs3ZDc5MzAzN2EwNzYwMTg2NTc0YjAyODJmMmY0MzVlN30=
+From Base64 ---> battleX{7d793037a0760186574b0282f2f435e7}
 ```
 ![image](https://github.com/gr33pp/BattleX/blob/main/Assets/crackme1.png)
 
@@ -42,7 +42,11 @@ This string is definitely a ROT cipher
 I pasted the string to [cyberchef](https://gchq.github.io/CyberChef/) and tried ROT-13 cipher on it but it did not work
 
 I tried ROT-47 on it and it gave a base64 string. I added From Base64 receipe to it and got the flag
-
+```
+ROT-47 ---> YmF0dGxlWHswOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNn0=
+From Base64 ---> battleX{098f6bcd4621d373cade4e832627b4f6}
+```
+![image](https://github.com/gr33pp/BattleX/blob/main/Assets/crackme2.png)
 ```
 Flag: battleX{098f6bcd4621d373cade4e832627b4f6}
 ```
