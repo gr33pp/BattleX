@@ -25,3 +25,9 @@ From Base85
 From Base64
 From Base64
 ```
+![image](https://github.com/gr33pp/BattleX/blob/main/Assets/crackme1.png)
+
+```
+Flag: battleX{7d793037a0760186574b0282f2f435e7}
+```
+
