@@ -9,3 +9,19 @@ I opened up [cyberchef](https://gchq.github.io/CyberChef/) and pasted the string
 
 ```
 what is cyberchef?
+CyberChef is a web-based application for performing various types of data manipulation tasks. It is designed to make data processing simple and efficient by providing a vast array of operations that can be combined in a visual and intuitive interface.
+```
+Immediately i pasted the string on cyberchef it suggested that the string was Base85
+
+After decoding from Base85, it returned a Base64 string SO i decoded from base64 too
+
+Afetr decodeing from Base64, it retunred another Base64 string. 
+
+Finally it prompted out the flag
+
+```
+Recipie
+From Base85
+From Base64
+From Base64
+```
