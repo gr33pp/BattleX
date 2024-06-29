@@ -1,6 +1,6 @@
 ## BattleX CTF: another_machine 
 #### Category: Boot2Root
-#### Score: 30
+#### Score: 60
 #### Number of Solves: 4 
 
 ### TL; DR
