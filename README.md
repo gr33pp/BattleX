@@ -2,7 +2,7 @@
 
 <hr>
 
-This repe contains the writeup for the Btattlex ctf
+This repo contains the writeup for the BattleX ctf
 
 The CTF was hosted by [jay_hunts](https://x.com/jay_hunts)
 
