@@ -12,7 +12,7 @@
 
 I ran `strings` as soon as I downloaded the binary.
 
-![Illustration]([Imgur](https://i.imgur.com/ErGicIR.png))
+![Illustration](https://i.imgur.com/ErGicIR.png)
 
 EASY.
 
