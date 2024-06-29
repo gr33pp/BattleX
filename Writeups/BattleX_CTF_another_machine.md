@@ -127,7 +127,7 @@ _ROT13 with amount 13_
 
 Credential for light, gotten.
 
-light:0lightyagami23433
+`light:0lightyagami23433`
 
 ```
 ryuk@deathnote:~$ su light
