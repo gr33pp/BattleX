@@ -5,7 +5,7 @@
 
 ### TL; DR
 
-
+Exploit upload functionality of a webserver to gain initial access, escalating privilege from low privileged user to root using docker group.
 
 ### Recon
 
