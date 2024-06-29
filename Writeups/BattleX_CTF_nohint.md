@@ -8,10 +8,9 @@
 
 **Files Attached:** photo1719581039-1719584076332.jpeg
 
-### TL;DR
+### TL; DR
 
-Fix _file magic_ and use steghide to extract the file
-
+Fix _file magic_ on a JPEG image and use steghide to extract the hidden file embedded in it.
     
 ### Magician
 

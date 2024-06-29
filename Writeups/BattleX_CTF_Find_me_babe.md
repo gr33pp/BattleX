@@ -9,7 +9,7 @@
 
 **Files Attached:** rootfs-1719533608029.squashfs
 
-### TL;DR
+### TL; DR
 
 Purpose is to unsquash the Squashfs dump and extract the flag.
 
@@ -42,7 +42,7 @@ created 4 hardlinks
 ```
 This decompresses the Squashfs file and extracts its content to my current directory. The `-d` flag would help if you wish to specify a directory for extraction.
 
-### Finding the babe
+### Finding babe
 
 Now that the Squashfs is extracted (mine extracted to `squashfs-root` in my current directory), I chrooted into it using `chroot` command.
 
@@ -55,9 +55,9 @@ drwxrwxr-x 17 1000 1000 4.0K Jun 27 23:34 .
 drwxrwxr-x 17 1000 1000 4.0K Jun 27 23:34 ..
 lrwxrwxrwx  1 root root    7 Jun 27 22:59 bin -> usr/bin
 drwxr-xr-x  2 root root 4.0K Apr 15  2020 boot
-[break]
+[snip]
 ```
-The Boom! I was dropped into the chroot. To find the flag was pretty easy. I `grep` recursively to find anything like `battlex{` as it is the flag pattern.
+Boom! I was dropped into the chroot. To find the flag was pretty easy. I `grep` recursively to find anything like `battlex{` as it is the flag pattern.
 
 ```
 root@archlinux:/# grep -r "battlex{" / 2>/dev/null

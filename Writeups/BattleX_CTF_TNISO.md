@@ -6,7 +6,7 @@
 
 > "Can you find the email address of the owner of this artwork? I need to contact him."
 
-### TL;DR
+### TL; DR
 
 Do light research on a photo with Google lens and Instagram and get the artist's/ owner's email address
 
@@ -30,7 +30,7 @@ I went to the Instagram profile and soon found the link to his/her portfolio.
 
 _Look from left to right_
 
-Emain found, onto the next challenge!
+Email found, onto the next challenge!
 
 Flag: `battlex{clayshaper@outlook.com}`
 
