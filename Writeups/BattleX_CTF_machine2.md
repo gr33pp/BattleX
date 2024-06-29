@@ -39,7 +39,7 @@ Nothing much in the source code, just links to a login page and register page th
 
 _Login page_
 
-Since there was no registration page and I didn't want to fuss with files or directories, I tried a basic SQL injection to bypass the login page, and it worked.
+Since there was no registration page and I didn't want to fuzz for files or directories, I tried a basic SQL injection to bypass the login page, and it worked.
 
 ```
 Username: '--
