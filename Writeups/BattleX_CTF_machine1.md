@@ -169,12 +169,9 @@ drwx------    2 root     root        4.0K Jun 14 20:51 .ssh
 BattleX{c4ca4238a0b923820dcc509a6f75849b}
 ```
 
-Thats all for machine1
+That's all for machine1
 
 Root flag: `BattleX{c4ca4238a0b923820dcc509a6f75849b}`
-
-### Conclusion
-
 
 ### References
 
