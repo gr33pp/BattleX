@@ -4,10 +4,12 @@ The first this i did was to dowload the Task file. After download the Taskfile, 
 
 From the name of the callenge "cat" i thought i was just to cat or strings the image file to get the flag but it was more than that.
 
-I used stegseek on thr file to extract hidden datw from it. 
+I used stegseek on the file to extract hidden datw from it. 
+
 ![image](https://github.com/gr33pp/BattleX/blob/main/Assets/cat.png)
 
 I found out that the flag was hidden inside the image but was encoded with base64
+
 ![image](https://github.com/gr33pp/BattleX/blob/main/Assets/cat%202.png)
 
 ```
