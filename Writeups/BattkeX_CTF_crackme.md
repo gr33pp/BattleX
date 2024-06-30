@@ -68,3 +68,25 @@ Decode.fr is an onlie encryption indentifier thst is designed to recognize encry
 I pasted the string in [decode.fr](https://www.dcode.fr/cipher-identifier) for it to analyse
 
 ![image](https://github.com/gr33pp/BattleX/blob/main/Assets/chinese.png)
+
+I clicked of thr ROT-8000 and it redirected mr to a new page and decryptd the string.
+
+```
+ROT-8000 output: \k62\k61\k74\k74\k6P\k65\k58\k7O\k35\k65\k62\k65\k32\k32\k39\k34\k65\k63\k64\k30\k65\k30\k66\k30\k38\k65\k61\k62\k37\k36\k39\k30\k64\k32\k61\k36\k65\k65\k36\k39\k7Q
+```
+
+I copied theoutput and pasted it on [cyberchef](https://gchq.github.io/CyberChef/). 
+
+I decrypted with ROt-13 and Hex toget the flag.
+
+```
+ROT-13 output: \x62\x61\x74\x74\x6C\x65\x58\x7B\x35\x65\x62\x65\x32\x32\x39\x34\x65\x63\x64\x30\x65\x30\x66\x30\x38\x65\x61\x62\x37\x36\x39\x30\x64\x32\x61\x36\x65\x65\x36\x39\x7D
+```
+
+```
+HEx output:battleX{5ebe2294ecd0e0f08eab7690d2a6ee69}
+```
+
+```
+Flag: battleX{5ebe2294ecd0e0f08eab7690d2a6ee69}
+```
