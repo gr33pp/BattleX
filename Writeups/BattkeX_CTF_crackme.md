@@ -51,7 +51,7 @@ From Base64 ---> battleX{098f6bcd4621d373cade4e832627b4f6}
 Flag: battleX{098f6bcd4621d373cade4e832627b4f6}
 ```
 
-## Task3 #3
+## Task2 #3
 
 ```
 string: 籥籴簿簻籥籴簿簺籥籴籀簽籥籴籀簽籥籴簿籙籥籴簿簾籥籴簾籁籥籴籀籘籥籴簼簾籥籴簿簾籥籴簿簻籥籴簿簾籥籴簼簻籥籴簼簻籥籴簼籂籥籴簼簽籥籴簿簾籥籴簿簼籥籴簿簽籥籴簼簹籥籴簿簾籥籴簼簹籥籴簿簿籥籴簼簹籥籴簼籁籥籴簿簾籥籴簿簺籥籴簿簻籥籴簼籀籥籴簼簿籥籴簼籂籥籴簼簹籥籴簿簽籥籴簼簻籥籴簿簺籥籴簼簿籥籴簿簾籥籴簿簾籥籴簼簿籥籴簼籂籥籴籀籚
@@ -90,3 +90,30 @@ HEx output:battleX{5ebe2294ecd0e0f08eab7690d2a6ee69}
 ```
 Flag: battleX{5ebe2294ecd0e0f08eab7690d2a6ee69}
 ```
+
+
+# Tak 2 #4
+
+```
+string: yzggovC{v99z18x428xy38w5u260853678922v03}
+```
+
+This is an atbash cipher. 
+
+i decrypted it with [deoce.fr](https://www.dcode.fr/atbash-cipher)
+
+![iamge](https://github.com/gr33pp/BattleX/blob/main/Assets/crackme-3.png)
+
+```
+Flag: battleX{e99a18c428cb38d5f260853678922e03}
+```
+
+# Task2 #3 
+
+```
+string: cammwiU{e8578ewy8458ni06ccc5uu76l58g5zb4}
+key: battlex
+```
+This is a Vigenere Cipher and from the hint we were given as battlex
+
+![image](https://github.com/gr33pp/BattleX/blob/main/Assets/carckme-hint.png)
