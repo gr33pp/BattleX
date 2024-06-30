@@ -117,3 +117,11 @@ key: battlex
 This is a Vigenere Cipher and from the hint we were given as battlex
 
 ![image](https://github.com/gr33pp/BattleX/blob/main/Assets/carckme-hint.png)
+
+I pated the cipher on [decode.fr](https://www.dcode.fr/vigenere-cipher) and applied the key
+
+![image](https://github.com/gr33pp/BattleX/blob/main/Assets/crame-me-4.png)
+
+```
+FLag:battleX{d8578edf8458ce06fbc5bb76a58c5ca4}
+```
