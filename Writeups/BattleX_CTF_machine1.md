@@ -30,7 +30,7 @@ Nmap done: 1 IP address (1 host up) scanned in 23.67 seconds
 
 ### TL; DR
 
-Exploit IDOR in a web app and get access to sensitive information, in this case, a SSH private key, encrypted with a weak password. Using that as access and exploiting lxd group got root access on this machine
+Exploit IDOR in a web app and get access to sensitive information, in this case, a SSH private key, encrypted with a weak password. Using that as access and exploiting lxd group to get root access on this machine
     
 ### Solution Steps
 
