@@ -58,3 +58,13 @@ string: 籥籴簿簻籥籴簿簺籥籴籀簽籥籴籀簽籥籴簿籙籥籴簿簾
 ```
 
 This string looks likr chinese but it is not
+
+Is is a ROT-8000 cipher. I analysed it with [decode.fr](https://www.dcode.fr/cipher-identifier)
+
+```
+Decode.fr is an onlie encryption indentifier thst is designed to recognize encryption/encoding from a text message. The detector performs cryptanalysis, examines various features of the text, such as letter distribution, character repetition, word length, etc.
+```
+
+I pasted the string in [decode.fr](https://www.dcode.fr/cipher-identifier) for it to analyse
+
+![image](https://github.com/gr33pp/BattleX/blob/main/Assets/chinese.png)
