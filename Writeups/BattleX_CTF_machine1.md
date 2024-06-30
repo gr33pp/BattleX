@@ -70,7 +70,6 @@ jayhunts@BattleX:~$
 ```
 
 User flag: `BattleX{e99a18c428cb38d5f260853678922e03}`
-BattleX{e99a18c428cb38d5f260853678922e03}
 
 ### Privilege escalation
 
